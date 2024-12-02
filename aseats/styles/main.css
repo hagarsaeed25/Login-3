@@ -96,4 +96,26 @@
       font-weight: 300;
       color: var(--cetacean-blue);
     }
-   
+    section form .options {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 17px;
+    }
+    section form .options label {
+      display: inline;
+      color: var(--black);
+    }
+    section form .options .forgot-paddword{
+      color: var(--spanish-gray);
+    }
+    section form .submit-btn{
+      display: block;
+      width: 100%;
+      background-color: var(--blue);
+      color: var(--white);
+      padding: 20px;
+      margin-top: 49px;
+      border-radius: 32px;
+      box-shadow: 0 4px 26px rgb(var(--black) / 25%);
+    }
