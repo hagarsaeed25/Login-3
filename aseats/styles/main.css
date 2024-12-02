@@ -66,3 +66,34 @@
       font-size: 16px;
       font-weight:600;
     }
+    section form {
+      margin-top: 52px;
+    }
+    section form label{
+      display: block;
+      font-size: 13px;
+      line-height: 19.5px;
+      font-weight: 500;
+      color: var(--spanish-gray);
+    }
+    section form input{
+          border: none;
+          outline: none;
+    }
+
+    section form .input-container{
+      display: flex;
+      border-bottom: 2px solid var(--cetacean-blue);
+    }
+    section form .input-container:first-of-type {
+      margin-bottom: 49px;
+    }
+    section form .input-container input {
+      padding: 5px;
+    }
+    section form .input-container input::placeholder {
+      font-size: 16px;
+      font-weight: 300;
+      color: var(--cetacean-blue);
+    }
+   
